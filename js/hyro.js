@@ -4,7 +4,6 @@ var fs = require('fs');
 var util = require('util');
 var color = "#E36D6D";
 var default_color = "#E36D6D";
-baseDIR = "\\";
 
 //change directory settings per user platform
 if (process.platform === 'darwin') {
@@ -24,11 +23,12 @@ if (process.platform === 'darwin') {
 	baseDIR = process.env.HOME
 }
 
+console.log(baseDIR)
 function checkHex(value){
 	return /^#([A-Fa-f0-9]{3}$)|([A-Fa-f0-9]{6}$)/.test(value)
 }
 
-//saveAction will be used for hotkeys as well as the 'Save' menu item
+//saveAction will be used for hotkeys (future) as well as the 'Save' menu item
 function saveAction() {
 	e = $(".file-tab[title=selected]").find("span").text();
 
@@ -42,9 +42,9 @@ function saveAction() {
 		path = $(".file-tab[title=selected]").find("label")[0].innerText;
 	} else {
 		path = baseDIR + $(".file-tab[title=selected]").find("label")[0].innerText;
+		console.log(path);
 		$(file_tab).attr("alt", "open");
 	}
-
 	
 	text = $(".file-tab[title=selected]").find("code")[0].innerText;
 	file = $(".file-tab[title=selected]").find("span")[0].innerText;
@@ -128,7 +128,7 @@ $(document).ready(function(){
 		fileSubmenu.append(new gui.MenuItem({ 
 			label: 'New File',
 			click: function() {
-				appendFile("<!DOCTYPE html>\n<html>\n<head>\n\n</head>\n<body>\n\n</body>\n</html>", "/untitled.html", true);
+				appendFile("<!DOCTYPE html>\n<html>\n<head>\n\n</head>\n<body>\n\n</body>\n</html>", "/untitled.html", false);
       			$(".file-tab").trigger("click");
 			}
 		}));
