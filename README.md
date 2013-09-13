@@ -4,8 +4,10 @@ A Live, desktop, HTML5 text-editor. You can now code HTML5 websites in real-time
 
 Get it [here](http://jawerty.github.io/Hyro)
 
+**The app's name was previously 'Hyper'; however, there was a name change. Same app, different name.**
+
 # Install
-Hyro is compatible for all Platforms: Windows, Mac, Linux (32-bit)
+Hyro (previously 'Hyper') is compatible for all Platforms: Windows, Mac, Linux (32-bit)
 
 Go to the Hyro website to download/install -> [http://jawerty.github.io/Hyro](http://jawerty.github.io/Hyro)
 
