@@ -2,16 +2,18 @@
 
 A Live, desktop, HTML5 text-editor. You can now code HTML5 websites in real-time on your desktop.
 
-Get it [here](http://jawerty.github.io/Hyro)
+Get it [here](http://jawerty.github.io/Hyro) 
 
 # Install
-Hyro is compatible for all Platforms: Windows, Mac, Linux (32-bit)
+Hyro is compatible for all Platforms: Windows, Mac, Linux (32-bit).
 
 Go to the Hyro website to download/install -> [http://jawerty.github.io/Hyro](http://jawerty.github.io/Hyro)
 
 **or** if you're a node.js (node-webkit) developer
 
 Clone the github repository 'jawerty/Hyro' and hack as you please.
+
+The current version is 0.0.3.
 
 # Usage 
 It has a rather basic UI. You type in your code on the **left** and see what your HTML looks like on the **right**.
