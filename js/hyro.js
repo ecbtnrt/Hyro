@@ -418,7 +418,8 @@ $(document).ready(function(e){
 	});
 
 	var code_box = $('#default');
-
+	
+	//live updating for html code.
 	$("#default").live('keyup', function() {
 		code_box_text = "";
 		for (i=0;i<$(".CodeMirror-code pre").length;i++) {
