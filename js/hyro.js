@@ -1,3 +1,9 @@
+/*
+Hyro Editor
+Last change Oct 2013
+Developer: Jared Wright @jawerty 
+*/
+
 //require's and global variables
 var gui = require('nw.gui');
 var fs = require('fs');
