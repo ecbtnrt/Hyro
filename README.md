@@ -30,10 +30,15 @@ If you dislike the primary UI color, you can change the color by choosing the 'C
 
 Overall, the Hyro app is a lightweight development tool that I made to make testing my webpages faster and easier. It is not meant to be a complete supplement for Sublime Text and jsfiddle, but if you use it for these purposes that's alright. Also, If you would like to raise an issue/bug or make a pull request, you are more than welcome to and I will do my best to help solve the problem.
 
-Thank you, and happy hacking.
+Thank you and happy hacking.
 
 # Development
 Hyro is built with node-webkit and jquery.
+
+### Todo 
+* Coderunner plug-ins built in.  
+* Build tool.
+* Improve linux distributions
 
 # LICENSE
 
