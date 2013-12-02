@@ -16,7 +16,7 @@ Clone the github repository 'jawerty/Hyro' and hack as you please.
 The current version is 0.0.3.
 
 # Usage 
-It has a rather basic UI. You type in your code on the **left** and see what your HTML looks like on the **right**.
+It has a basic UI. You type in your code on the **left** and see what your HTML looks like on the **right**.
 
 ![image not loaded...](https://raw.github.com/jawerty/Hyro/master/screenshots/2.png)
 
@@ -28,7 +28,7 @@ If you dislike the primary UI color, you can change the color by choosing the 'C
 
 ![image not loaded...](https://raw.github.com/jawerty/Hyro/master/screenshots/5_edit.png)
 
-Overall, the Hyro app is a lightweight development tool that I made to make testing my webpages faster and easier. It is not meant to be a complete supplement for Sublime Text and jsfiddle, but if you use it for these purposes that's alright. Also, If you would like to raise an issue/bug or make a pull request, you are more than welcome to and I will do my best to help solve the problem.
+Overall, the Hyro app is a lightweight development tool that I made to make frontend testing faster and easier. It is not meant to be a complete supplement for Sublime Text and Vim, but if you use it for these purposes that's alright. Also, If you would like to raise an issue/bug or make a pull request, you are more than welcome to and I will do my best to help solve the problem.
 
 Thank you and happy hacking.
 
